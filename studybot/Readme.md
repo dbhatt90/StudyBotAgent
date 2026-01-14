@@ -51,7 +51,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 2. Environment Variables
 Create a .env file within the studybot/ directory:
 
-# studybot/.env
+studybot/.env
+
 GOOGLE_API_KEY=your_gemini_api_key
 SECRET_KEY=your_flask_secret_key
 CHECKPOINT_DIR=checkpoints
