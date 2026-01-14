@@ -53,9 +53,8 @@ Create a .env file within the studybot/ directory:
 
 studybot/.env
 
-GOOGLE_API_KEY=your_gemini_api_key
-SECRET_KEY=your_flask_secret_key
-CHECKPOINT_DIR=checkpoints
+<img width="300" height="69" alt="image" src="https://github.com/user-attachments/assets/4d9f3ee1-5bce-45ae-8440-93f9eae1e598" />
+
 
 
 3. Installation
