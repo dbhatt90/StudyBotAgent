@@ -4,21 +4,8 @@ StudyBot is a AI-powered application designed to automate and assist in the crea
 **📂 Project Structure**
 Following the modular refactor, all core logic and entry points reside within the studybot/ package. This structure ensures that business logic is decoupled from the UI and communication layers.
 
-
-studybot_project/
-├── studybot/                   # Root application directory
-│   ├── .env                    # Environment variables (API Keys, etc.)
-│   ├── app.py                  # Dash UI & Flask Server entry point
-│   ├── Websocket.py            # Flask-SocketIO event handlers
-│   ├── llm_service_session.py  # LLM integration and history management
-│   │
-│   ├── agent/                  # Agent components (DecisionMaker, Executor)
-│   ├── core/                   # Orchestrator (StudyBotAgent) and Config
-│   ├── models/                 # Pydantic data structures
-│   ├── services/               # RAG Search and Field Management
-│   ├── storage/                # Checkpoint persistence logic
-│   └──requirements.txt            # Project dependencies
-    └── README.md                 
+<img width="680" height="384" alt="image" src="https://github.com/user-attachments/assets/f48a0755-be0b-4355-acf6-ec5ffb212455" />
+           
 
 
 **🛠️ Core Components**
